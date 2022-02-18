@@ -7,6 +7,7 @@ type SampleData = {
   age: number;
 };
 
+/** SampleData Factory */
 const sampleDataFactory = Factory.Sync.makeFactory<SampleData>({
   id: Factory.each((i) => i),
   firstName: 'Bob',
@@ -14,6 +15,9 @@ const sampleDataFactory = Factory.Sync.makeFactory<SampleData>({
   age: Factory.each((i) => 20 + (i % 10)),
 });
 
+/**
+ * メイン処理
+ */
 const main = () => {
   // 1件生成
   const obj = sampleDataFactory.build();
@@ -26,4 +30,5 @@ const main = () => {
   console.log(`items[1] - id:${items[1].id}, fistName:${items[1].firstName}`);
 };
 
+// メイン処理実行
 main();
