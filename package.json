@@ -2,7 +2,9 @@
   "name": "factory.ts-sample",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "start:1": "node dist/sample1.js"
   },
   "dependencies": {
     "factory.ts": "^0.5.2"
