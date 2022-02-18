@@ -22,4 +22,11 @@ yarn build
 
 # サンプル実行
 yarn start
+
+# 実行結果
+obj1 - id:0, lastName:Kojima, age:20
+obj2 - id:1, lastName:Goto, age:21
+items.length:2
+items[0] - id:2, lastName:Kojima, age:22
+items[1] - id:3, lastName:Kojima, age:23
 ```
