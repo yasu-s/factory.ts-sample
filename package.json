@@ -4,7 +4,7 @@
   "scripts": {
     "build": "tsc",
     "build:w": "tsc -w",
-    "start:1": "node dist/sample1.js"
+    "start": "node dist/sample.js"
   },
   "dependencies": {
     "factory.ts": "^0.5.2"

@@ -21,7 +21,7 @@ const sampleDataFactory = Factory.Sync.makeFactory<SampleData>({
 const main = () => {
   // 1件生成
   const obj = sampleDataFactory.build();
-  console.log(`id:${obj.id}, fistName:${obj.firstName}, age:${obj.age}`);
+  console.log(`obj - id:${obj.id}, fistName:${obj.firstName}, age:${obj.age}`);
 
   // 複数件生成
   const items = sampleDataFactory.buildList(2);

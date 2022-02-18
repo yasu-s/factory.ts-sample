@@ -20,6 +20,6 @@ yarn
 # TypeScriptビルド
 yarn build
 
-# サンプル1実行
-yarn start:1
+# サンプル実行
+yarn start
 ```
