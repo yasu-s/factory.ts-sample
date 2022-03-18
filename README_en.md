@@ -1,32 +1,32 @@
 # factory.ts-sample
 
-## 概要
+## Overview
 
-- [factory.ts](https://www.npmjs.com/package/factory.ts)のサンプルコードです。
+- Sample code for [factory.ts](https://www.npmjs.com/package/factory.ts). 
 
-## 動作環境
+## System Requirements
 
 - Node.js - 14.x
 - Yarn - 1.22.x
 
-## ライブラリ
+## Library
 
 - TypeScript - 4.5.x
 - factory.ts - 0.5.x
 
-## 動作確認
+## Usage
 
 ```bash
-# パッケージインストール
+# Node.js package installation 
 yarn
 
-# TypeScriptビルド
+# TypeScript build 
 yarn build
 
-# サンプル実行
+# Execution 
 yarn start
 
-# 実行結果
+# Execution result
 obj1 - id:0, lastName:Kojima, age:20
 obj2 - id:1, lastName:Goto, age:21
 items.length:2
